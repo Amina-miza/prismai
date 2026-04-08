@@ -1,6 +1,6 @@
 # PRISM AI - Pull Request Intelligent Scoring & Monitoring
 
-PRISM AI is a hackathon-ready AI code review co-pilot that transforms pull request details into structured, decision-oriented insights.
+PRISM AI is a AI code review co-pilot that transforms pull request details into structured, decision-oriented insights.
 
 ## Features
 
@@ -18,7 +18,7 @@ PRISM AI is a hackathon-ready AI code review co-pilot that transforms pull reque
 
 - Frontend: React + Vite + Tailwind CSS
 - Backend: Node.js + Express
-- AI: OpenAI API
+
 
 ## Local Run (VS Code)
 
