@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 10% 10%, #1e293b, #020617 40%, #020617 100%);
+  color: #e2e8f0;
+  font-family: Inter, 'Segoe UI', sans-serif;
+}
+
+.glass-card {
+  @apply rounded-2xl border border-slate-700/50 bg-slate-900/70 shadow-2xl shadow-indigo-950/20 backdrop-blur-xl;
+}
+
+.fade-up {
+  animation: fadeUp 0.45s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
